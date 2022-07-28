@@ -12,4 +12,7 @@ return require("packer").startup(function()
 
     use("mbbill/undotree")
 
+    use("tpope/vim-commentary")
+    use("tpope/vim-surround")
+
 end)
