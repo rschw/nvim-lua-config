@@ -1,5 +1,4 @@
-vim.g.hagen_colorscheme = "tokyonight"
-
+vim.g.hagen_colorscheme = "dracula"
 
 function ColorMyPencils()
     vim.g.tokyonight_style = "storm"

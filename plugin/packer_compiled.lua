@@ -69,10 +69,65 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["cmp-tabnine"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/cmp-tabnine",
+    url = "https://github.com/tzachar/cmp-tabnine"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
   gruvbox = {
     loaded = true,
     path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/gruvbox-community/gruvbox"
+  },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
+    url = "https://github.com/onsails/lspkind-nvim"
+  },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
+    url = "https://github.com/glepnir/lspsaga.nvim"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-treesitter-angular"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/nvim-treesitter-angular",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter-angular"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
@@ -94,6 +149,11 @@ _G.packer_plugins = {
     path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ["symbols-outline.nvim"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/symbols-outline.nvim",
+    url = "https://github.com/simrat39/symbols-outline.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -109,15 +169,30 @@ _G.packer_plugins = {
     path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  vim = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/vim",
+    url = "https://github.com/dracula/vim"
+  },
   ["vim-commentary"] = {
     loaded = true,
     path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
   },
+  ["vim-jinja2-syntax"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/vim-jinja2-syntax",
+    url = "https://github.com/glench/vim-jinja2-syntax"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 
