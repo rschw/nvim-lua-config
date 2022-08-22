@@ -115,6 +115,8 @@ require("lspconfig").gopls.setup(config({
     }
 }))
 
+require("lspconfig").csharp_ls.setup(config())
+
 local opts = {
     -- wether to highlight the currently hovered symbol
     -- disable if your cpu usage is higher than you want it
