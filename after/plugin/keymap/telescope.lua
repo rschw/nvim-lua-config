@@ -1,6 +1,8 @@
 local Remap = require("hagen.keymap")
 local nnoremap = Remap.nnoremap
 
+nnoremap("<leader><CR>", ":so ~/.config/nvim/init.lua<CR>")
+
 nnoremap("<C-p>", ":Telescope")
 
 nnoremap("<leader>ff", function()

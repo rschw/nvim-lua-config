@@ -34,7 +34,7 @@ vim.opt.updatetime = 50
 
 vim.opt.shortmess:append("c")
 
---vim.opt.colorcolumn = "100"
+vim.opt.colorcolumn = "110"
 
 vim.g.mapleader = " "
 

@@ -7,7 +7,6 @@ return require("packer").startup(function()
     use("dracula/vim", { as = "dracula" })
 
     use("christoomey/vim-tmux-navigator")
-
     use("mbbill/undotree")
     use("tpope/vim-commentary")
     use("tpope/vim-surround")
