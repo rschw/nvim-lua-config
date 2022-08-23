@@ -1,8 +1,10 @@
+-- https://github.com/hrsh7th/nvim-cmp
+
 local cmp = require('cmp')
 local luasnip = require('luasnip')
 local lspkind = require('lspkind')
 
--- Tabnine
+-- tabnine
 local tabnine = require('cmp_tabnine.config')
 tabnine:setup({
     max_lines = 1000,
@@ -17,6 +19,7 @@ local source_mapping = {
     buffer = "[Buffer]",
     nvim_lsp = "[LSP]",
     nvim_lua = "[Lua]",
+    luasnip = "[Snippet]",
     cmp_tabnine = "[TN]",
     path = "[Path]",
 }

@@ -21,14 +21,17 @@ return require("packer").startup(function()
     use("kyazdani42/nvim-web-devicons")
 
     use("neovim/nvim-lspconfig")
-    use("hrsh7th/cmp-nvim-lsp")
-    use("hrsh7th/cmp-buffer")
-    use("hrsh7th/nvim-cmp")
     use("tzachar/cmp-tabnine", { run = "./install.sh", requires = 'hrsh7th/nvim-cmp' })
     use("onsails/lspkind-nvim")
     use("glepnir/lspsaga.nvim")
     use("simrat39/symbols-outline.nvim")
+
     use("L3MON4D3/LuaSnip")
+    use("rafamadriz/friendly-snippets")
+
+    use("hrsh7th/nvim-cmp")
+    use("hrsh7th/cmp-nvim-lsp")
+    use("hrsh7th/cmp-buffer")
     use("saadparwaiz1/cmp_luasnip")
 
 end)
