@@ -13,3 +13,10 @@ that uses lua only to set things up.
 - `Colorschemes`: includes my favourite colorschemes such as gruvbox, tokyonight and dracula
 - `Telescope`: a fuzzy finder for finding files, grepping text, picking code actions etc. with dev icon support
 
+
+## Things that are missing
+
+- a code formatter `neoformat`
+- auto closing for brackets `autopairs`
+- proper git integration `neogit`
+

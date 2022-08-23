@@ -2,6 +2,8 @@ return require("packer").startup(function()
 
     use("wbthomason/packer.nvim")
 
+    use { "TimUntersberger/neogit", requires = "nvim-lua/plenary.nvim" }
+
     -- color schemes
     use("gruvbox-community/gruvbox")
     use("folke/tokyonight.nvim")

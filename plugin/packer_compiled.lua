@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
     url = "https://github.com/glepnir/lspsaga.nvim"
   },
+  neogit = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/neogit",
+    url = "https://github.com/TimUntersberger/neogit"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/nvim-cmp",
