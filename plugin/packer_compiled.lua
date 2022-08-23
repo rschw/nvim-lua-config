@@ -189,6 +189,11 @@ _G.packer_plugins = {
     path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/vim-jinja2-syntax",
     url = "https://github.com/glench/vim-jinja2-syntax"
   },
+  ["vim-sleuth"] = {
+    loaded = true,
+    path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/vim-sleuth",
+    url = "https://github.com/tpope/vim-sleuth"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/hagen.robert/.local/share/nvim/site/pack/packer/start/vim-surround",

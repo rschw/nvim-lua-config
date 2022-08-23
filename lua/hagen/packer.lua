@@ -13,11 +13,13 @@ return require("packer").startup(function()
 
     use("tpope/vim-commentary")
     use("tpope/vim-surround")
+    use("tpope/vim-sleuth")
 
     -- treesitter
     use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
     use("nvim-treesitter/nvim-treesitter-angular")
     use("glench/vim-jinja2-syntax")
+    -- use("windwp/nvim-autopairs")
 
     -- telescope
     use("nvim-lua/plenary.nvim")
