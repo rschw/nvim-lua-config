@@ -38,3 +38,4 @@ vim.opt.colorcolumn = "110"
 
 vim.g.mapleader = " "
 
+vim.opt.cursorline = true
