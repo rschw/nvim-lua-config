@@ -1,4 +1,4 @@
-require("hagen.set")
-require("hagen.packer")
-require("hagen.telescope")
+require "hagen.options"
+require "hagen.packer"
+require "hagen.telescope"
 
