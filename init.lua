@@ -1,2 +1,2 @@
-require("hagen")
+require "hagen"
 

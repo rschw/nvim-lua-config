@@ -37,8 +37,6 @@ local options = {
 vim.opt.shortmess:append("c")
 vim.opt.isfname:append("@-@")
 
-vim.g.mapleader = " "
-
 for k, v in pairs(options) do
   vim.opt[k] = v
 end

@@ -1,3 +1,8 @@
+local status_ok, telescope = pcall(require, "telescope")
+if not status_ok then
+    return
+end
+
 local previewers = require("telescope.previewers")
 local pickers = require("telescope.pickers")
 local finders = require("telescope.finders")
@@ -6,10 +11,12 @@ local actions = require("telescope.actions")
 local conf = require("telescope.config").values
 local action_state = require("telescope.actions.state")
 
-require("telescope").setup({
+telescope.setup {
     defaults = {
-        prompt_prefix = " >",
-        path_display = { "truncate" },
+
+        prompt_prefix = " ",
+        selection_caret = " ",
+        path_display = { "smart" },
         color_devicons = true,
 
         file_sorter = sorters.get_fzy_sorter,
@@ -37,6 +44,7 @@ require("telescope").setup({
 
                 ["<C-j>"] = actions.move_selection_next,
                 ["<C-k>"] = actions.move_selection_previous,
+
                 ["<Down>"] = actions.move_selection_next,
                 ["<Up>"] = actions.move_selection_previous,
 
@@ -56,6 +64,8 @@ require("telescope").setup({
                 ["M"] = actions.move_to_middle,
                 ["L"] = actions.move_to_bottom,
 
+                ["<Down>"] = actions.move_selection_next,
+                ["<Up>"] = actions.move_selection_previous,
                 ["gg"] = actions.move_to_top,
                 ["G"] = actions.move_to_bottom,
 
@@ -64,5 +74,5 @@ require("telescope").setup({
             }
         },
     }
-})
+}
 
