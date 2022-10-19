@@ -64,6 +64,9 @@ return packer.startup(function(use)
   use { "gruvbox-community/gruvbox" }
   use { "dracula/vim", { as = "dracula" } }
 
+  -- Neoformat
+  use { "sbdchd/neoformat" }
+
   -- Treesitter
   use { "nvim-treesitter/nvim-treesitter" }
   -- use { "nvim-treesitter/nvim-treesitter-angular" }
